@@ -1,6 +1,6 @@
 <?php
 # @Date:   2019-09-17T15:43:10+01:00
-# @Last modified time: 2019-09-24T13:56:15+01:00
+# @Last modified time: 2019-09-24T14:34:19+01:00
 
 
 
@@ -22,4 +22,8 @@ Route::get('/', function () {
 
 Route::get('/fayedonohoe', function () {
     return view('faye');
+});
+
+Route::get('/about', function () {
+    return '<h1> This is the about page</h2>';
 });
