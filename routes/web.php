@@ -1,6 +1,6 @@
 <?php
 # @Date:   2019-09-17T15:43:10+01:00
-# @Last modified time: 2019-09-24T14:34:19+01:00
+# @Last modified time: 2019-09-24T15:09:04+01:00
 
 
 
@@ -27,3 +27,6 @@ Route::get('/fayedonohoe', function () {
 Route::get('/about', function () {
     return '<h1> This is the about page</h2>';
 });
+
+//Go to controller called HelloController and run the method hello
+Route::get('/hello', 'HelloController@hello');
